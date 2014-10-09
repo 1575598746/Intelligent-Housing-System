@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>SOSDialog</class>
+ <widget class="QDialog" name="SOSDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QPushButton" name="call119_pushButton">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>30</y>
+     <width>95</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/吃1.png);</string>
+   </property>
+   <property name="text">
+    <string>119</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="call120_pushButton">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>100</y>
+     <width>95</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/驴1.png);</string>
+   </property>
+   <property name="text">
+    <string>120</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="call110_pushButton">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>170</y>
+     <width>95</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/紫.png);</string>
+   </property>
+   <property name="text">
+    <string>110</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="family_pushButton">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>30</y>
+     <width>95</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/请1.png);</string>
+   </property>
+   <property name="text">
+    <string>family</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="friends_pushButton">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>100</y>
+     <width>95</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/皇1.png);</string>
+   </property>
+   <property name="text">
+    <string>friends</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="colleagues_pushButton">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>170</y>
+     <width>95</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/懒1.png);</string>
+   </property>
+   <property name="text">
+    <string>colleagues</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="settings_pushButton">
+   <property name="geometry">
+    <rect>
+     <x>290</x>
+     <y>250</y>
+     <width>95</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/成1.png);</string>
+   </property>
+   <property name="text">
+    <string>settings</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>400</width>
+     <height>300</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/1_120406110829_5.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <zorder>label</zorder>
+  <zorder>call119_pushButton</zorder>
+  <zorder>call120_pushButton</zorder>
+  <zorder>call110_pushButton</zorder>
+  <zorder>family_pushButton</zorder>
+  <zorder>friends_pushButton</zorder>
+  <zorder>colleagues_pushButton</zorder>
+  <zorder>settings_pushButton</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
